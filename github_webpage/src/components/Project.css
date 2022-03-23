@@ -1,0 +1,30 @@
+.project-title {
+
+}
+
+.project-description {
+
+}
+
+.project-screenshots {
+
+}
+
+.project-screenshot {
+    
+}
+
+.project-screenshot-container {
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.project-screenshot-image-container {
+    display: inline-block;
+    
+}
+
+.project-screen-description {
+    display: inline-block;
+}
