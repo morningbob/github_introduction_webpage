@@ -1,9 +1,27 @@
-.project-title {
+.project-container {
+    width: 80%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.project-icon {
+    margin-bottom: 30px;
+}
+
+.project-title {
+    font-size: 50px;
+    font-style: bold;
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 .project-description {
-
+    font-size: 20px;
+    margin-bottom: 100px;
+    margin-left: 220px;
+    margin-right: 220px;
+    line-height: 40px;
 }
 
 .project-screenshots {
@@ -11,20 +29,26 @@
 }
 
 .project-screenshot {
-    height: 150px;
+    height: 600px;
+    margin-right: 50px;
+    margin-bottom: 80px;
 }
 
 .project-screenshot-container {
-    text-align: center;
-    vertical-align: top;
-    display: inline-block;
+    
 }
 
 .project-screenshot-image-container {
-    display: inline-block;
+    
+    
     
 }
 
 .project-screen-description {
-    display: inline-block;
+    margin-left: 80px;
+    font-size: 20px;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-bottom: 100px;
+    line-height: 40px;
 }

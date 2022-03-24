@@ -5,8 +5,8 @@ import './Header.css'
 const Header = () => {
     return (
         <Fragment>
-            <div class="header-content">
-                <div class="title">Morningbob - Jessie Hon</div>
+            <div className="header-content">
+                <div className="title">Morningbob - Jessie Hon</div>
             </div>
 
         </Fragment>

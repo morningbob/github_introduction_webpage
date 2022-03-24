@@ -6,7 +6,7 @@ import { Fragment } from 'react';
 import './App.css';
 import Header from './components/Header'
 import Home from './pages/Home'
-import Project from './components/Project'
+import Projects from './pages/Projects'
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <div className='App'>
         <Header />
         <Home />
-        <Project />
+        <Projects />
       </div>
     
     </Fragment>
