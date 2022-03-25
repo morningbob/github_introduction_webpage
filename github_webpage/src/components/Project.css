@@ -28,7 +28,31 @@
     font-size: 20px;
     margin-top: 20px;
     text-align: left;
-    
+    line-height: 70px;
+}
+
+.project-details-platform-title {
+    margin-left: 310px;
+}
+
+.project-details-platform-content {
+    margin-left: 20px;
+}
+
+.project-details-language-title {
+    margin-left: 100px;
+}
+
+.project-details-language-content {
+    margin-left: 20px;
+}
+
+.project-details-repo-title {
+    margin-left: 310px;
+}
+
+.project-details-repo-content {
+    margin-left: 20px;
 }
 
 .project-screenshots {

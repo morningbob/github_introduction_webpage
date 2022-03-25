@@ -28,11 +28,14 @@ const Project = (props) => {
             <div className='project-title'>{props.passedProject.name}</div>
             <div className='project-description'>{props.passedProject.description}</div>
             <div className='project-details'>
-            <span>Platform:  </span>
-            <span>{props.passedProject.platform}</span>
+            <span className='project-details-platform-title'>Platform:</span>
+            <span className='project-details-platform-content'>{props.passedProject.platform}</span>
+            <span className='project-details-language-title'>Language:</span>
+            <span className='project-details-language-content'>{props.passedProject.language}</span>
+            <br/>
+            <span className='project-details-repo-title'>Repository:  </span>
+            <a href={props.passedProject.repo} className='project-details-repo-content'>{props.passedProject.repo}</a>
             </div>
-            <div className='project-details'>Language:  {props.passedProject.language}</div>
-            <div className='project-details'>Repository:  {props.passedProject.repo}</div>
             <div className='project-screenshots'></div>
             <div className='project-screenshot-container'>
             <div className='project-screenshot-image-container'>

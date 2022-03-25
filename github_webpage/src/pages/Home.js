@@ -11,7 +11,7 @@ const Home = () => {
             <h1 className='home-title'>Morningbob: Jessie Hon's GitHub Introduction</h1>
             <img className='home-projects-icon' src={DevIcon}/>
             <div className='home-projects-title'>Projects</div>
-            <div className='home-projects-intro'>There are projects of both Android and iOS mobile applications.</div>
+            <div className='home-projects-intro'>The projects include Android, iOS mobile applications and web pages.</div>
       </Fragment>
     )
 }
