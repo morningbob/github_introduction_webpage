@@ -27,6 +27,12 @@ const Project = (props) => {
             <img className='project-icon' src={Icons[props.passedProject.id - 1]}/>
             <div className='project-title'>{props.passedProject.name}</div>
             <div className='project-description'>{props.passedProject.description}</div>
+            <div className='project-details'>
+            <span>Platform:  </span>
+            <span>{props.passedProject.platform}</span>
+            </div>
+            <div className='project-details'>Language:  {props.passedProject.language}</div>
+            <div className='project-details'>Repository:  {props.passedProject.repo}</div>
             <div className='project-screenshots'></div>
             <div className='project-screenshot-container'>
             <div className='project-screenshot-image-container'>

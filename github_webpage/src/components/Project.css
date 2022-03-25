@@ -18,10 +18,17 @@
 
 .project-description {
     font-size: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
     margin-left: 220px;
     margin-right: 220px;
     line-height: 40px;
+}
+
+.project-details {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: left;
+    
 }
 
 .project-screenshots {
@@ -35,7 +42,7 @@
 }
 
 .project-screenshot-container {
-    
+    margin-top: 100px;
 }
 
 .project-screenshot-image-container {
