@@ -20,4 +20,26 @@
 }
 
 
-
+@media only screen and (max-width: 600px) {
+    .home-title {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .home-projects-icon {
+        display: none;
+    }
+    
+    .home-projects-title {
+        font-size: 25px;
+        margin-bottom: 30px;
+        font-style: bold;
+    }
+    
+    .home-projects-intro {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+    }
+}

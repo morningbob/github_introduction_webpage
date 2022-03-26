@@ -19,8 +19,8 @@
 .project-description {
     font-size: 20px;
     margin-bottom: 70px;
-    margin-left: 220px;
-    margin-right: 220px;
+    margin-left: 20%;
+    margin-right: 20%;
     line-height: 40px;
 }
 
@@ -61,7 +61,7 @@
 
 .project-screenshot {
     height: 600px;
-    margin-right: 50px;
+    
     margin-bottom: 80px;
 }
 
@@ -70,8 +70,6 @@
 }
 
 .project-screenshot-image-container {
-    
-    
     
 }
 
@@ -82,4 +80,264 @@
     margin-right: 220px;
     margin-bottom: 100px;
     line-height: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .project-container {
+        width: 80%;
+        height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .project-icon {
+        margin-bottom: 10px;
+        height: 80px;
+    }
+    
+    .project-title {
+        font-size: 30px;
+        font-style: bold;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .project-description {
+        font-size: 20px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 25px;
+    }
+    
+    .project-details {
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: left;
+        line-height: 40px;
+    }
+    
+    .project-details-platform-title {
+        margin-left: 15px;
+    }
+    
+    .project-details-platform-content {
+        margin-left: 15px;
+    }
+    
+    .project-details-language-title {
+        margin-left: 50px;
+    }
+    
+    .project-details-language-content {
+        margin-left: 15px;
+    }
+    
+    .project-details-repo-title {
+        margin-left: 15px;
+    }
+    
+    .project-details-repo-content {
+        margin-left: 15px;
+    }
+    
+    .project-screenshots {
+    
+    }
+    
+    .project-screenshot {
+        height: 600px;
+        margin-bottom: 30px;
+    }
+    
+    .project-screenshot-container {
+        margin-top: 30px;
+    }
+    
+    .project-screenshot-image-container {
+        
+    }
+    
+    .project-screen-description {
+        font-size: 20px;
+        margin-left: 15px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .project-container {
+        width: 80%;
+        height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .project-icon {
+        margin-bottom: 10px;
+        height: 40px;
+    }
+    
+    .project-title {
+        font-size: 30px;
+        font-style: bold;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .project-description {
+        font-size: 20px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 25px;
+    }
+    
+    .project-details {
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: left;
+        line-height: 40px;
+    }
+    
+    .project-details-platform-title {
+        margin-left: 15px;
+    }
+    
+    .project-details-platform-content {
+        margin-left: 15px;
+    }
+    
+    .project-details-language-title {
+        margin-left: 50px;
+    }
+    
+    .project-details-language-content {
+        margin-left: 15px;
+    }
+    
+    .project-details-repo-title {
+        margin-left: 15px;
+    }
+    
+    .project-details-repo-content {
+        margin-left: 15px;
+    }
+    
+    .project-screenshots {
+    
+    }
+    
+    .project-screenshot {
+        height: 600px;
+        margin-bottom: 30px;
+    }
+    
+    .project-screenshot-container {
+        margin-top: 30px;
+    }
+    
+    .project-screenshot-image-container {
+        
+    }
+    
+    .project-screen-description {
+        font-size: 20px;
+        margin-left: 15px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        line-height: 25px;
+    }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+     /* your css rules for ipad portrait */
+}
+
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+     /* your css rules for ipad landscape */
+     .project-container {
+        width: 80%;
+        height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .project-icon {
+        margin-bottom: 10px;
+        height: 40px;
+    }
+    
+    .project-title {
+        font-size: 30px;
+        font-style: bold;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .project-description {
+        font-size: 20px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 25px;
+    }
+    
+    .project-details {
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: left;
+        line-height: 40px;
+    }
+    
+    .project-details-platform-title {
+        margin-left: 15px;
+    }
+    
+    .project-details-platform-content {
+        margin-left: 15px;
+    }
+    
+    .project-details-language-title {
+        margin-left: 50px;
+    }
+    
+    .project-details-language-content {
+        margin-left: 15px;
+    }
+    
+    .project-details-repo-title {
+        margin-left: 15px;
+    }
+    
+    .project-details-repo-content {
+        margin-left: 15px;
+    }
+    
+    .project-screenshots {
+    
+    }
+    
+    .project-screenshot {
+        height: 600px;
+        margin-bottom: 30px;
+    }
+    
+    .project-screenshot-container {
+        margin-top: 30px;
+    }
+    
+    .project-screenshot-image-container {
+        
+    }
+    
+    .project-screen-description {
+        font-size: 20px;
+        margin-left: 15px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        line-height: 25px;
+    }
 }
