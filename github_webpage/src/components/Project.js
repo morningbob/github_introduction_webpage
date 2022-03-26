@@ -28,13 +28,16 @@ const Project = (props) => {
             <div className='project-title'>{props.passedProject.name}</div>
             <div className='project-description'>{props.passedProject.description}</div>
             <div className='project-details'>
-            <span className='project-details-platform-title'>Platform:</span>
-            <span className='project-details-platform-content'>{props.passedProject.platform}</span>
-            <span className='project-details-language-title'>Language:</span>
-            <span className='project-details-language-content'>{props.passedProject.language}</span>
-            <br/>
-            <span className='project-details-repo-title'>Repository:  </span>
-            <a href={props.passedProject.repo} className='project-details-repo-content'>{props.passedProject.repo}</a>
+                <div className='project-details-platform-title'>Platform:</div>
+                <div className='project-details-platform-content'>{props.passedProject.platform}</div>
+                <div className='project-details-language-container'>
+                    <div className='project-details-language-title'>Language:</div>
+                    <div className='project-details-language-content'>{props.passedProject.language}</div>
+                </div>
+                <div className='project-details-repo-container'>
+                    <div className='project-details-repo-title'>Repository:  </div>
+                    <a href={props.passedProject.repo} className='project-details-repo-content'>{props.passedProject.repo}</a>
+                </div>
             </div>
             <div className='project-screenshots'></div>
             <div className='project-screenshot-container'>
