@@ -16,8 +16,8 @@ import ChatIcon from '../images/chat.png'
 const SignalScreenshots = [Signal_01, Signal_02]
 const PDFScreenshots = [To_PDF_01, To_PDF_02, To_PDF_03]
 const PeerScreenshots = [Peer_01, Peer_02, Peer_03]
-const Screenshots = [PDFScreenshots, SignalScreenshots, PeerScreenshots, PDFScreenshots]
-const Icons = [To_PDF_Icon, To_PDF_Icon, ChatIcon, To_PDF_Icon]
+const Screenshots = [PDFScreenshots, SignalScreenshots, PDFScreenshots, PeerScreenshots, PDFScreenshots]
+const Icons = [To_PDF_Icon, To_PDF_Icon, ChatIcon, To_PDF_Icon, To_PDF_Icon]
 
 const Project = (props) => {
 
