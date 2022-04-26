@@ -33,8 +33,19 @@ export const projectData = [
         programmingInfo: []
     },
     {
-        name: "GitHub Page",
+        name: "Peer Connect",
         id: 4,
+        description: "This app uses bluetooth and wifi to connect and chat with nearby devices.  The connection is peer to peer.  The app uses the MultiPeer Connectivity module from Apple.",
+        platform: "iOS",
+        language: "SwiftUI",
+        repo: "https://github.com/morningbob/peerConnect_iOS_swiftUI.git",
+        screenshots: [],
+        shotsDescriptions: "",
+        programmingInfo: []
+    },
+    {
+        name: "GitHub Page",
+        id: 5,
         description: "The webpage introduces the projects written by Jessie Hon.  It also presents Jessie Hon as a programmer and a person.",
         platform: "Web Page",
         language: "React",

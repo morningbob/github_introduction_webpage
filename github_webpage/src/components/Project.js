@@ -6,13 +6,17 @@ import To_PDF_02 from '../images/to_pdf_06.jpg'
 import To_PDF_03 from '../images/to_pdf_08.jpg'
 import Signal_01 from '../images/signal_01.jpeg'
 import Signal_02 from '../images/signal_02.jpeg'
+import Peer_01 from '../images/peerConnect_01.jpg'
+import Peer_02 from '../images/peerConnect_04.jpg'
+import Peer_03 from '../images/peerConnect_07.jpg'
 import To_PDF_Icon from '../images/pdf.png'
 import ChatIcon from '../images/chat.png'
 // may load the screenshots here
 
 const SignalScreenshots = [Signal_01, Signal_02]
 const PDFScreenshots = [To_PDF_01, To_PDF_02, To_PDF_03]
-const Screenshots = [PDFScreenshots, SignalScreenshots, PDFScreenshots, PDFScreenshots]
+const PeerScreenshots = [Peer_01, Peer_02, Peer_03]
+const Screenshots = [PDFScreenshots, SignalScreenshots, PeerScreenshots, PDFScreenshots]
 const Icons = [To_PDF_Icon, To_PDF_Icon, ChatIcon, To_PDF_Icon]
 
 const Project = (props) => {
