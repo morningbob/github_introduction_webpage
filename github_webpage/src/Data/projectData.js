@@ -22,13 +22,13 @@ export const projectData = [
         programmingInfo: []
     },
     {
-        name: "Chat in BLE",
+        name: "BLE Chat",
         id: 3,
         description: "It is a chat app using Bluetooth Low Energy.  The user can chat with nearby devices using Bluetooth Low Energy.  But both devices need to have the app installed.",
         platform: "Android",
         language: "Kotlin",
-        repo: "https://github.com/morningbob/github_introduction_webpage.git",
-        screenshots: [],
+        repo: "https://github.com/morningbob/bleChat_android.git",
+        screenshots: ["01_BLEChat_android.jpg", "02_BLEChat_android.jpg", "05_BLEChat_android.jpg"],
         shotsDescriptions: "",
         programmingInfo: []
     },
@@ -43,7 +43,10 @@ export const projectData = [
         shotsDescriptions: "",
         programmingInfo: []
     },
-    {
+    
+]
+/*
+{
         name: "GitHub Page",
         id: 5,
         description: "The webpage introduces the projects written by Jessie Hon.  It also presents Jessie Hon as a programmer and a person.",
@@ -54,4 +57,4 @@ export const projectData = [
         shotsDescriptions: "",
         programmingInfo: []
     }
-]
+*/
